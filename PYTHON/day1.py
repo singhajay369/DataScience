@@ -34,3 +34,7 @@ print(a)
 print(x)    
 print(y)
 print(z)
+
+
+b = 21
+b
