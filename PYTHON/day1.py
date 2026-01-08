@@ -5,7 +5,7 @@ print("Hello")
 # keyword - reserved word in python that has special meaning
 # Function - block of reusable code that performs a specific task
 # Variable - a named location in memory to store data
-# Class - a blueprint for creating objects that encapsulate data and behavior
+# Class - a blueprint for creating objects that encapsulate data and behavioruv
 # Object - an instance of a class that contains data and methods
 # Method - a function defined within a class that operates on instances of that class
 # Attribute - a variable that belongs to an object or class
@@ -38,3 +38,7 @@ print(z)
 
 b = 21
 b
+
+# learn about python exectuion pipeline .py-> tokenization -> parsing ->ast->compiler-> bytecode -> pvm(interpreter)-> out put
+
+# uv is a package manager for python , cmd we use: uv python install version, uv venve command to create virtual environmentcd 
