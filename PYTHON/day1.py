@@ -41,4 +41,15 @@ b
 
 # learn about python exectuion pipeline .py-> tokenization -> parsing ->ast->compiler-> bytecode -> pvm(interpreter)-> out put
 
-# uv is a package manager for python , cmd we use: uv python install version, uv venve command to create virtual environmentcd 
+# uv is a package manager for python , cmd we use: uv python install version, uv venve command to create virtual environmentcd
+# .ipynb is a jupyter notebook file, it is used for data science and machine learning projects it stands for interactive python notebook
+
+balance = 1000
+
+def add_money():
+    global balance
+    balance = balance + 500
+    print("Balance after adding money:", balance)
+    print(f"Inside Function: {balance}")
+add_money()
+print(f"Outside Function: {balance}")
